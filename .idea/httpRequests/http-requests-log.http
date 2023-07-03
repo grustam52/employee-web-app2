@@ -1,0 +1,252 @@
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194921.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194917.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194916.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194914.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Semen&lastName=Semenov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194857.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Semen&lastName=Semenov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194855.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Semen&lastName=Semenov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194850.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194846.200.json
+
+###
+
+GET http://localhost:8080/employee
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194818.200.json
+
+###
+
+GET http://localhost:8080/employee/remove?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194757.404.json
+
+###
+
+GET http://localhost:8080/employee/remove?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194751.404.json
+
+###
+
+GET http://localhost:8080/employee/remove?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194747.404.json
+
+###
+
+GET http://localhost:8080/employee/remove?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194731.404.json
+
+###
+
+GET http://localhost:8080/employee/find?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194705.404.json
+
+###
+
+GET http://localhost:8080/employee/find?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194703.404.json
+
+###
+
+GET http://localhost:8080/employee/find?firstName=Petr&lastName=Petrov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194652.200.json
+
+###
+
+GET http://localhost:8080/employee/find?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194607.404.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Petr&lastName=Petrov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194558.400.json
+
+###
+
+GET http://localhost:8080/employee/remove?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194553.404.json
+
+###
+
+GET http://localhost:8080/employee/remove?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194546.200.json
+
+###
+
+GET http://localhost:8080/employee
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194541.200.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Petr&lastName=Petrov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194535.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Petr&lastName=Petrov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194531.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Petr&lastName=Petrov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194525.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Petr&lastName=Petrov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194511.200.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Semen&lastName=Semenov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194500.400.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Semen&lastName=Semenov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194447.200.json
+
+###
+
+GET http://localhost:8080/employee/add?firstName=Ivan&lastName=Ivanov
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-03T194444.200.json
+
+###
+

@@ -1,17 +1,20 @@
 package ru.skypro.employee.service.impl;
 
+import org.springframework.stereotype.Service;
 import ru.skypro.employee.exception.EmployeeAlreadyAddedException;
 import ru.skypro.employee.exception.EmployeeNotFoundException;
 import ru.skypro.employee.model.Employee;
 import ru.skypro.employee.service.EmployeeService;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
-
+@Service
 public class EmployeeServiceImpl implements EmployeeService  {
     private final List<Employee> employees;
 
-    public EmployeeServiceImpl(List<Employee> employee) {
-        this.employees = employee;
+    public EmployeeServiceImpl() {
+        this.employees = new ArrayList<>();
     }
 
     @Override
@@ -20,7 +23,7 @@ public class EmployeeServiceImpl implements EmployeeService  {
         if (employees.contains(employee)) {
             throw new EmployeeAlreadyAddedException();
         }
-        employees.add(employee)
+        employees.add(employee);
         return employee;
 
     }
@@ -44,5 +47,10 @@ public class EmployeeServiceImpl implements EmployeeService  {
             throw new EmployeeNotFoundException();
         }
         return employee;
+    }
+
+    @Override
+    public Collection<Employee> findAll() {
+        return employees;
     }
 }
