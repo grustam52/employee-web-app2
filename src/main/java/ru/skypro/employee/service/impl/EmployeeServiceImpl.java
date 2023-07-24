@@ -5,28 +5,26 @@ import ru.skypro.employee.exception.EmployeeAlreadyAddedException;
 import ru.skypro.employee.exception.EmployeeNotFoundException;
 import ru.skypro.employee.model.Employee;
 import ru.skypro.employee.service.EmployeeService;
+import ru.skypro.employee.service.EmployeeValidationService;
 
 import java.util.*;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService  {
     private final Map<String, Employee> employees;
+    private final EmployeeValidationService validationService;
 
-    public EmployeeServiceImpl() {
+    public EmployeeServiceImpl(EmployeeValidationService validationService) {
+        this.validationService = validationService;
         this.employees = new HashMap<>();
-        add("Ivan", "Ivanov");
-        add("Semen", "Semenov");
-        add("Petr", "Petrov");
-        add("Grigory", "Grigorev");
-        add("Alexey", "Alexeev");
-        add("Andrey", "Andreev");
+
 
     }
 
     @Override
     public Employee add(String firstName, String lastName) {
         Employee employee = new Employee(firstName,lastName);
-
+        validationService.validate(firstName, lastName);
         return employee;
 
     }
@@ -34,6 +32,7 @@ public class EmployeeServiceImpl implements EmployeeService  {
     @Override
     public Employee add(String firstName, String lastName, int salary, int departmentId) {
         Employee employee = new Employee(firstName,lastName, salary, departmentId);
+        validationService.validate(firstName, lastName);
        return add(employee);
 
     }

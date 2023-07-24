@@ -21,11 +21,28 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>user.java.lang</groupId>
+            <artifactId>user.java.lang</artifactId>
+            <version>2020.164.33984</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.rhj.java</groupId>
+            <artifactId>rhj-java-lang</artifactId>
+            <version>0.2.1</version>
         </dependency>
     </dependencies>
 
