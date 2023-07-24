@@ -22,11 +22,18 @@ public class EmployeeController {
     public ResponseEntity<Employee> add(@RequestParam String firstName, @RequestParam String lastName) {
         Employee employee = employeeService.add(firstName, lastName);
         return ResponseEntity.ok(employee);
-    }@GetMapping("/remove")
+    }@GetMapping("/add-full")
+    public ResponseEntity<Employee> add(@RequestParam String firstName, @RequestParam String lastName,
+                                        @RequestParam Integer salary, @RequestParam Integer departmentId) {
+        Employee employee = employeeService.add(firstName, lastName, salary, departmentId);
+        return ResponseEntity.ok(employee);
+    }
+    @GetMapping("/remove")
     public ResponseEntity<Employee> remove(@RequestParam String firstName, @RequestParam String lastName) {
         Employee employee = employeeService.remove(firstName, lastName);
         return ResponseEntity.ok(employee);
-    } @GetMapping("/find")
+    }
+    @GetMapping("/find")
     public ResponseEntity<Employee> find(@RequestParam String firstName, @RequestParam String lastName) {
         Employee employee = employeeService.find(firstName, lastName);
         return ResponseEntity.ok(employee);
